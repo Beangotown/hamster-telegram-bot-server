@@ -1,7 +1,6 @@
 FROM node:18.18.2 AS base
 WORKDIR /app
 
-
 # Rebuild the source code only when needed
 FROM base AS builder
 ARG BUILD_ENV
