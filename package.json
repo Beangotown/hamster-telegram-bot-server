@@ -1,0 +1,35 @@
+{
+  "name": "hamster-bot-server",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "compile": "npx rimraf dist && tsc",
+    "start": "node ./dist/main.js",
+    "start:pm2:local": "pm2 start ecosystem.config.js --only hamster-telegram-bot-server-local --no-daemon",
+    "start:pm2:testnet": "pm2 start ecosystem.config.js --only hamster-telegram-bot-server-test --no-daemon",
+    "start:pm2:mainnet": "pm2 start ecosystem.config.js --only hamster-telegram-bot-server --no-daemon"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "socks5-https-client": "^1.2.1",
+    "qrcode": "^1.5.1"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "@types/qrcode": "^1.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "8.22.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "pm2": "^5.2.2",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.5"
+  }
+}
