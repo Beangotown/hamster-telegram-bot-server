@@ -48,4 +48,4 @@ certificates
 
 dist
 
-secrets.ts
+# secrets.ts
