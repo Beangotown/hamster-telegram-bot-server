@@ -19,8 +19,8 @@ const configMap = {
   },
   testnet: {
     BOT_TOKEN: BOT_TOKEN,
-    SERVICE_URL: 'https://test-hamster.beangotown.com',
-    PLAY_URL: 'https://test-hamster.beangotown.com/',
+    SERVICE_URL: 'https://hamster.beangotown.xyz',
+    PLAY_URL: 'https://hamster.beangotown.xyz',
     ADD_LIQUIDITY_LINK: 'https://test-app.awaken.finance/liquidity/ACORNS_ELF_0.3/add'
   }
 };
