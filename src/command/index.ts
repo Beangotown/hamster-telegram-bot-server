@@ -60,7 +60,7 @@ export const onTokenomicsCommand = async (msg: TelegramBot.Message): Promise<voi
 
   bot.sendPhoto(
     chatId,
-    'https://raw.githubusercontent.com/Beangotown/beangotown-tg-bot-node/main/tokenomics.png?token=GHSAT0AAAAAACTT27KGBTR6ULVX2Q6DDRGEZVSAN4A'
+    'https://raw.githubusercontent.com/Beangotown/hamster-telegram-bot-server/main/tokenomics.png'
   );
 };
 
