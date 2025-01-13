@@ -121,6 +121,7 @@ export const onMessageHandler = async (msg: TelegramBot.Message): Promise<void> 
         return;
       default:
         // bot.sendMessage(chatId, `Received your message ${text}`);
+        //
         break;
     }
   } catch (error) {
