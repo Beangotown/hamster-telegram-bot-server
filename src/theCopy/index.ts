@@ -47,7 +47,7 @@ export const helpMessageList = [
   },
   {
     title: '<b>📬 Issues & Suggestions</b>',
-    text: `To optimise the game and provide an enjoyable experience, we appreciate your valuable feedback. Please feel free to share any issues you encounter or your suggestions with us!\nLink: <a href="https://forms.gle/uUwEw9yRTEYfmZAU6">https://forms.gle/uUwEw9yRTEYfmZAU6</a>`
+    text: `To optimise the game and provide an enjoyable experience, we appreciate your valuable feedback. Please feel free to share any issues you encounter or your suggestions with us!\nLink: <a href="https://form.hamster.beangotown.com/feedback">https://form.hamster.beangotown.com/feedback</a>`
   },
   {
     title: '<b>📢 Community</b>',
