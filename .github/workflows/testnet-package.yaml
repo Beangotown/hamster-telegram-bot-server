@@ -37,8 +37,8 @@ jobs:
           platforms: linux/amd64
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+#          cache-from: type=gha
+#          cache-to: type=gha,mode=max
           build-args: |
             TELEGRAM_BOT_TOKEN_MAINNET=${{ secrets.TELEGRAM_BOT_TOKEN_MAINNET }}
             TELEGRAM_BOT_TOKEN_TESTNET=${{ secrets.TELEGRAM_BOT_TOKEN_TESTNET }}
