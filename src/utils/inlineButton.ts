@@ -5,14 +5,14 @@ export const getSocialMediaBtn = ({
 }: {
   playLink: string;
 }): TelegramBot.InlineKeyboardButton[][] => [
-  [
-    {
-      text: '🐹 Play to Earn Now 🐹',
-      web_app: {
-        url: playLink
-      }
-    }
-  ],
+  // [
+  //   {
+  //     text: '🐹 Play to Earn Now 🐹',
+  //     web_app: {
+  //       url: playLink
+  //     }
+  //   }
+  // ],
   [
     {
       text: 'Join Community',
