@@ -1,18 +1,18 @@
 import TelegramBot from 'node-telegram-bot-api';
 
 export const getSocialMediaBtn = ({
-  playLink
+  // playLink
 }: {
-  playLink: string;
+  // playLink: string;
 }): TelegramBot.InlineKeyboardButton[][] => [
-  [
-    {
-      text: '🐹 Play to Earn Now 🐹',
-      web_app: {
-        url: playLink
-      }
-    }
-  ],
+  // [
+  //   {
+  //     text: '🐹 Play to Earn Now 🐹',
+  //     web_app: {
+  //       url: playLink
+  //     }
+  //   }
+  // ],
   [
     {
       text: 'Join Community',
